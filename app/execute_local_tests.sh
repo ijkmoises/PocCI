@@ -1,3 +1,3 @@
 #!/bin/sh
-apt get-install -y net-tools
+apt install -y net-tools
 ifconfig
