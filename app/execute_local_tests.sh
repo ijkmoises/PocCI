@@ -13,7 +13,7 @@ clear
 clear
 
 
-adb connect 192.168.15.5:5585
+adb connect 192.168.15.5:5555
 
 adb devices
 
