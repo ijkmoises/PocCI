@@ -8,7 +8,7 @@ apt-get install -y sshpass
 #ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no moises@192.168.15.5
 #sshpass -p "Barato10#" ssh -o StrictHostKeyChecking=no moises@192.168.15.5
 
-sshpass -p "Barato10#" ssh -o StrictHostKeyChecking=no -R 6554:192.168.15.5:5554 -R 6555:192.168.15.5:5555 moises@192.168.15.5 -t "hostname -I"
+sshpass -p "Barato10#" ssh -o StrictHostKeyChecking=no -NL 5554:localhost:5554 -L 5555:localhost:5555 moises@192.168.15.5 -t
 
 #adb tcpip 5555
 hostname -I
