@@ -2,7 +2,7 @@
 whoami
 #apt-get install -y net-tools
 #apt-get install -y iputils-ping
-#apt-get install -y sshpass
+apt-get install -y sshpass
 
 #apt-get install -y iptables
 #ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no moises@192.168.15.5
