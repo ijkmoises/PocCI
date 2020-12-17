@@ -7,6 +7,8 @@ apt-get install -y sshpass
 #apt-get install -y iptables
 #ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no moises@192.168.15.5
 sshpass -p "Barato10#" ssh -o StrictHostKeyChecking=no moises@192.168.15.5
+source exit.sh
+
 adb tcpip 5555
 sleep 2
 exit
