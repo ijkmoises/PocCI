@@ -8,7 +8,7 @@ clear
 #ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no moises@192.168.15.5
 #sshpass -p "Barato10#" ssh -o StrictHostKeyChecking=no moises@192.168.15.5
 echo do iptables to redirect all incoming connections on port 5585 to localhost:5555
-iptables -t nat -i -I PREROUTING -p tcp -d 192.168.15.5 --dport 5585 -j DNAT --to-destination 127.0.0.1:5555
+iptables -t nat -i -I PREROUTING -p tcp -d 192.168.15.5 --dport 5585 -j DNAT -to-destination 127.0.0.1:5555
 
 clear
 
