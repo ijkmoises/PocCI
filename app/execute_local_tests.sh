@@ -2,8 +2,8 @@
 #apt-get install -y net-tools
 #apt-get install -y iputils-ping
 #apt-get install -y sshpass
-echo Install ipTables
-apt-get install -y iptables-persistent netfilter-persistent
+sudo apt install -y sudo
+apt-get install -y iptables
 clear
 #ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no moises@192.168.15.5
 #sshpass -p "Barato10#" ssh -o StrictHostKeyChecking=no moises@192.168.15.5
