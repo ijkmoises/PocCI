@@ -15,4 +15,4 @@
 
 adb connect 192.168.15.5:5555
 
-./gradlew connectedAndroidTest
+../gradlew connectedAndroidTest
