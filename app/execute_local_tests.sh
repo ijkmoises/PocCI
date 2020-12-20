@@ -1,7 +1,7 @@
 #!/bin/sh
 #whoami
-#apt-get install -y net-tools
-#apt-get install -y iputils-ping
+apt-get install -y net-tools
+apt-get install -y iputils-ping
 #apt-get install -y sshpass
 
 #apt-get install -y iptables
@@ -17,6 +17,6 @@ pwd
 
 adb start-server
 
-adb tcpip 5555
+ping 192.168.15.5
 
-adb connect 192.168.15.5:5555
+#adb connect 192.168.15.5:5555
