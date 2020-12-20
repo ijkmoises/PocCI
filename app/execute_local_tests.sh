@@ -15,7 +15,4 @@
 
 pwd
 
-adb connect 192.168.15.5:5554
-
-
-./source/gradlew connectedAndroidTest
+adb connect 192.168.15.5:5555
