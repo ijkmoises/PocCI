@@ -17,6 +17,6 @@ pwd
 
 adb start-server
 
-ping 192.168.15.5
+#ping 192.168.15.5
 
-#adb connect 192.168.15.5:5555
+adb connect 192.168.15.5:5555
